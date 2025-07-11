@@ -1,9 +1,8 @@
-# Define variables
-length = 10     # Length of the rectangle
-width = 5       # Width of the rectangle
+# Prompt the user for their current age
+current_age = int(input("How old are you? "))
 
-# Calculate the area
-area = length * width
+# Calculate future age in 2050 (assuming current year is 2023)
+future_age = current_age + 27
 
-# Print the result
-print(f"The area of the rectangle is: {area}")
+# Display the result
+print(f"In 2050, you will be {future_age} years old.")
