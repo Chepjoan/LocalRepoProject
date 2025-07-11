@@ -1,9 +1,8 @@
-# Define variables
-length = 10     # Length of the rectangle
-width = 5       # Width of the rectangle
+# Define variable
+hours = 2   # Number of hours to convert
 
-# Calculate the area
-area = length * width
+# Calculate seconds
+seconds = hours * 3600
 
 # Print the result
-print(f"The area of the rectangle is: {area}")
+print(f"{hours} hour(s) is {seconds} seconds.")
